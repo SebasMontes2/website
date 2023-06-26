@@ -1,13 +1,112 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+*{
+  box-sizing: border-box;
+      margin:0px;
+  }
+  html{
+    background-image: url(Imagenes/fondo.jpg);  
+      -webkit-font-smoothing: antialiased; 
+  }
+  footer{
+      background-color:#212121;
+      text-align: center;
+      color:#ffffff ;
+      
+  }
+  .menuH{
+  overflow: hidden;
+  border: 5px double;
+  }
+  .menuH a{
+  background-color: #212121;
+  color: white;
+  text-decoration: none;
+  float: left;
+  text-align: center;
+  padding: 15px;
+  width: 25%;
+  }
+  .menuH a:hover{
+  background-color:#626060;
+      color: black;
+      padding-bottom: 20px;
+  }
+  
+  body{
+      background-color:#323232;
+      border-style: solid;
+      border-radius: 5px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0 auto;
+      max-width: 1400px;
+      padding: 1em 2em 4em;
+     } 
+  p{
+  padding: 15px;
+  text-align: left;
+  background-color: #323232;   
+   font-weight: 600;   
+  color: white;
+  border: 3px solid;
+  border-image:
+  linear-gradient(
+      #323232,
+      #000000,
+      #b2afaf) 1;
+      animation: rotate
+      2.5s
+      ease-in
+      infinite;
+  }
+  @keyframes rotate {
+      50%{
+          border-image:
+          linear-gradient(
+          360deg,
+              #323232,
+              #000000,
+              #b2afaf)1;
+      }
+  }
+      
+  
+  h3{
+  padding-top: 10px;
+      color: white;
+  text-align: left;
+  }
+  h2{
+  color: white;
+  }
+  h1{
+    color: white;
+      text-align: left;
+      padding: 25px;
+  }
+  .img1{
+  text-align: center;
+  }
+  .logo{
+      text-align: center;
+      color: white;
+      font-weight: 600;   
+      
+  }
+  header{
+  display: flex;  
+  height: 150px;
+  justify-content: space-between;
+  align-items: center;
+   padding: 10px;
+      
+  }
+  .logo{
+   display: flex; 
+  align-items: center;
+  }
+  .logoimg{
+    height: 120px;  
+   margin-right: 10px;
+  }
+  
