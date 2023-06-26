@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Sebasmontes2.github.io/website/static/css/main.06e7a8a7.css",
+    "main.js": "/Sebasmontes2.github.io/website/static/js/main.89e30a02.js",
+    "static/js/787.c97bea1e.chunk.js": "/Sebasmontes2.github.io/website/static/js/787.c97bea1e.chunk.js",
+    "static/media/fondo.jpg": "/Sebasmontes2.github.io/website/static/media/fondo.7178aaefad28f2aa2302.jpg",
+    "static/media/logo.svg": "/Sebasmontes2.github.io/website/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Sebasmontes2.github.io/website/index.html",
+    "main.06e7a8a7.css.map": "/Sebasmontes2.github.io/website/static/css/main.06e7a8a7.css.map",
+    "main.89e30a02.js.map": "/Sebasmontes2.github.io/website/static/js/main.89e30a02.js.map",
+    "787.c97bea1e.chunk.js.map": "/Sebasmontes2.github.io/website/static/js/787.c97bea1e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.06e7a8a7.css",
+    "static/js/main.89e30a02.js"
+  ]
+}
